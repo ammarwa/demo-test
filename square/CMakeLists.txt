@@ -1,1 +1,0 @@
-add_shape_executable(square square.cpp)

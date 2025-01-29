@@ -10,6 +10,3 @@ function(add_shape_executable SHAPE_NAME)
   target_link_libraries(${SHAPE_NAME} PRIVATE shape)
   target_include_directories(${SHAPE_NAME} PRIVATE ${PROJECT_SOURCE_DIR})
 endfunction()
-
-add_subdirectory(rectangle)
-add_subdirectory(square)
