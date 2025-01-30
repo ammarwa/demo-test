@@ -10,6 +10,10 @@ public:
     int getArea() {
         return width * height;
     }
+
+    int getPerimeter() {
+        return 2 * (width + height);
+    }
 };
 
 int main() {
